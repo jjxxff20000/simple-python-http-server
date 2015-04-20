@@ -10,7 +10,7 @@ class RequestHandler(BaseHTTPRequestHandler):
         
         self.send_response(200)
         self.end_headers()
-        self.wfile.write("hello world!!")
+        self.wfile.write("hello http server!!")
         
     do_POST = do_GET    
     do_PUT = do_GET
